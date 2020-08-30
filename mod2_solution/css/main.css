@@ -91,6 +91,10 @@ body {
     .row {
         display: block;
     }
+
+    .col-2 {
+        margin-top: 10px;
+    }
     .col-3 {
         margin-top: 10px;
         width: 100%;
