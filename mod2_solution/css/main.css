@@ -1,0 +1,22 @@
+
+body {
+    box-sizing: border-box;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.menu-box {
+    border: 1px solid black;
+    background-color: lightblue;
+    color: black;
+}
+
+.menu-box-title 
+{
+    border: 1px solid black; 
+    background-color: green;
+    color: white;
+
+}
