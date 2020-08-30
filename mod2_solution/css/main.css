@@ -5,7 +5,7 @@ body {
 }
 
 .row {
-    display: inline-flex;
+
 }
 
 .menu-box {
@@ -64,7 +64,7 @@ body {
     .row .col-2 {
         width: 50%;
     }
-    
+
     .row .col-3 {
         width: 100%;
     }
