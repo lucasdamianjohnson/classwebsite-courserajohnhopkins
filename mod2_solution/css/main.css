@@ -77,6 +77,9 @@ body {
 /*Movile View*/
 @media only screen and (max-width: 767px) {
 
+    .row {
+        display: block;
+    }
     .row .col-1 {
         width: 100%;
     }
