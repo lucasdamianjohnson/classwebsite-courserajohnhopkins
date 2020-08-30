@@ -18,9 +18,18 @@ body {
 
 .menu-box-title 
 {
-    border: 1px solid black; 
+    border: 1px solid black;
     background-color: green;
     color: white;
-    position: absolute;
+    width: 100px;
+    float: right;
+    margin-top: -5px;
+    margin-right: -5px;
     
+}
+
+.menu-box-text
+{
+    clear: both;
+    margin-top: 60px;
 }
