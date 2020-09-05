@@ -1,0 +1,8 @@
+.menu-item 
+{
+    background-color: grey;
+    border: 2px solid black;
+    height: 1000px;
+    color: black;
+    padding: 10px;
+}
