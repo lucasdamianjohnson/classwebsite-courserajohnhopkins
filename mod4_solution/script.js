@@ -52,7 +52,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (var i = 0; i < names.length; i++) {
 
-      var name = names[i];
+      var name = names[i].toLowerCase();
 
 
 
@@ -72,7 +72,7 @@ for (var i = 0; i < names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if ( name[0].toLocaleLowerCase() == "j") {
+  if ( name[0] == "j") {
      byeSpeaker.speak(name);
   } else {
      helloSpeaker.speak(name);
