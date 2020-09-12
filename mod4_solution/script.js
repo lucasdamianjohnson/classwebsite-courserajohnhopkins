@@ -56,8 +56,6 @@ for (var i = 0; i < names.length; i++) {
 
 
 
-      console.log(name[0]);
-
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
