@@ -50,9 +50,13 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (names as name) {
+for (var i = 0; i < names.length; i++) {
 
-      console.log(name);
+      var name = names[i];
+
+
+
+      console.log(name[0]);
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
